@@ -1,3 +1,4 @@
+/* Mobile 1st */
 *{
     margin: 0;
     box-sizing: border-box;
@@ -5,6 +6,8 @@
 }
 /* Custom Colors */
 :root{
+    --black: #000000;
+    --white: #ffffff;
     --color1: #ffffff;
     --color2: #ffffff;
     --color3: #ffffff;
@@ -32,3 +35,36 @@ i{
 div{
     overflow: hidden;
 }
+/* Header Styles */
+
+nav{
+    background-color: var(--color1);
+    color: var(--black);
+    min-height: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.navtop{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+.nav-links{
+    background-color: var(--color1);
+    color: var(--black);
+    min-height: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    min-height: 40vw;
+    background-color: var(--color1);
+}
+
+/* Content Styles */

@@ -4,44 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/08efa38fac.js" crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
     <title>Document</title>
 </head>
 <body>
+    
     <header>
         <nav>
-            <ul>
-                <li>Lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sit</li>
-                <li>amet</li>
-            </ul>
+            <div class="navtop">
+                <img src="" alt="Title">
+                <div class="burger"><i class="fas fa-bars fa-lg"></i></div>
+            </div>
+            <div class="nav-links">
+                <a href="">Lorem</a>
+                <a href="">ipsum</a>
+                <a href="">dolor</a>
+                <a href="">sit</a>
+            </div>
         </nav>
         <div class="banner">
             <h1>Lorem</h1>
         </div>
     </header>
+
     <section class="content">
+        <!-- Generic div -->
+
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quod vel itaque neque nostrum accusantium ipsa fugit ducimus fuga eaque molestias modi accusamus nesciunt tempora cum atque, ipsam natus cupiditate dolor debitis alias libero.</div>
+
         <!-- Form display -->
         <div class="form-container">
             <form action="">
-                <label for="username">Username</label>
-                <input name="username" type="text" placeholder="username">
-
-                <label for="password">Password</label>
-                <input name="password" type="password" placeholder="password">
-
-                <label for="email">Email</label>
-                <input name="email" type="email" placeholder="email">
-
-                <label for="textarea">Textarea</label>
-                <textarea name="textarea" placeholder="textarea" id="" cols="30" rows="10"></textarea>
-
+                <div>
+                    <label for="username">Username</label>
+                    <input name="username" type="text" placeholder="username"> 
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input name="password" type="password" placeholder="password"> 
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input name="email" type="email" placeholder="email">
+                </div>
+                <div>
+                    <label for="textarea">Textarea</label>
+                    <textarea name="textarea" placeholder="textarea" id="" cols="30" rows="10"></textarea>
+                </div>
                 <button type="submit">Submit</button>
             </form>
         </div>
     </section>
+
     <footer>
         <div>
             <h3>Lorem</h3>
